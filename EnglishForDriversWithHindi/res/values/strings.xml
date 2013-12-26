@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">English for Drivers-2</string>
+    <string name="action_settings">Settings</string>
+    <string name="text1">Click on one of the buttons below:<!-- text --></string>
+	<string name="ImageButton1">Hello!<!-- text --></string>
+	<string name="ImageButton2">Morning!<!-- text --></string>
+	<string name="ImageButton3">Nice to meet you!<!-- text --></string>
+   	<string name="ImageButton4">How are you!<!-- text --></string>	
+	<string name="ImageButton5">Where would you like to go!<!-- text --></string>
+	<string name="ImageButton6">What is the address!<!-- text --></string>	
+	<string name="ImageButton7">Afternoon!<!-- text --></string>
+    <string name="ImageButton8">Here is my number!<!-- text --></string>
+    <string name="ImageButton9">I will call back later!<!-- text --></string>
+    <string name="ImageButton10">Thank you!<!-- text --></string> 
+    <string name="ImageButton11">Good night!<!-- text --></string>    
+
+</resources>

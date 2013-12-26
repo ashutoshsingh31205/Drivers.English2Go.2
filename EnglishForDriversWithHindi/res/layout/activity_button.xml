@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:background="@color/Aqua"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    tools:context=".ButtonActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:contentDescription="@string/text1"        
+        android:src="@drawable/pressabutton_h1"
+ />
+    <ImageButton
+        android:id="@+id/imagebutton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/custom_button"
+        android:contentDescription="@string/ImageButton1"
+        android:src="@drawable/hello_h" />
+
+
+    <ImageButton
+        android:id="@+id/imagebutton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/ImageButton2" 
+        android:background="@drawable/custom_button"
+        android:contentDescription="@string/ImageButton2"        
+        android:src="@drawable/morning_h"/>
+
+    <ImageButton
+        android:id="@+id/imagebutton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="82dp"
+        android:background="@drawable/custom_button"
+        android:contentDescription="@string/ImageButton3"
+        android:src="@drawable/nicetomeetyou_h"
+        android:text="@string/ImageButton3" />
+
+     <ImageButton
+        android:id="@+id/imagebutton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="122dp"
+        android:text="@string/ImageButton4" 
+        android:background="@drawable/custom_button"
+        android:contentDescription="@string/ImageButton4"        
+        android:src="@drawable/howareyou_h"/>
+    <ImageButton
+        android:id="@+id/imagebutton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="162dp"
+        android:text="@string/ImageButton5" 
+        android:background="@drawable/custom_button"
+        android:contentDescription="@string/ImageButton5"        
+        android:src="@drawable/wherewouldyouliketogo_h"        />
+      <ImageButton
+        android:id="@+id/imagebutton6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="202dp"
+        android:text="@string/ImageButton6" 
+        android:background="@drawable/custom_button"
+        android:contentDescription="@string/ImageButton6"        
+        android:src="@drawable/whatstheaddress_h"        />    
+
+     <ImageButton
+        android:id="@+id/imagebutton8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="242dp"
+        android:text="@string/ImageButton8" 
+        android:background="@drawable/custom_button"
+        android:contentDescription="@string/ImageButton8"        
+        android:src="@drawable/heresmynumber_h"        />
+              
+      <ImageButton
+        android:id="@+id/imagebutton9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="282dp"
+        android:text="@string/ImageButton9" 
+        android:background="@drawable/custom_button"
+        android:contentDescription="@string/ImageButton9"        
+        android:src="@drawable/iwillcallbacklater_h"        
+        />
+                   
+      <ImageButton
+        android:id="@+id/imagebutton10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="322dp"
+        android:text="@string/ImageButton10" 
+        android:background="@drawable/custom_button"
+        android:contentDescription="@string/ImageButton10"        
+        android:src="@drawable/thankyou_h"        />
+                        
+      <ImageButton
+        android:id="@+id/imagebutton11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="362dp"
+        android:text="@string/ImageButton11" 
+        android:background="@drawable/custom_button"
+        android:contentDescription="@string/ImageButton11"        
+        android:src="@drawable/hello_h"        />
+
+</RelativeLayout>
